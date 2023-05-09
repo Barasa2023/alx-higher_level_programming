@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-sep = " "
-for letter in range(97, 123):
-    sep = sep + chr(letter)
-print(str(sep))
+#!/usr/bin/python
+for l in range(ord('a'), ord('z')+1):
+    print("{:c}".format(l),end='')
