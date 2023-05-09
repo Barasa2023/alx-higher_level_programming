@@ -7,6 +7,6 @@ if number % 10 > 5:
 if number % 10 == 0:
     print(f"The last digit of {number} is\
             {number % 10} and is 0")
-if number % 10 < 6 and number != 0:
+if number % 10 < 6 and number % 10 != 0:
     print(f"The last digit of {number} is {number % 10} and\
             is less than 6 and not 0")
