@@ -8,3 +8,4 @@ Python Exceptions
 Python Classes
 Python Test Driven Development
 Python Objects
+Python is awesome
