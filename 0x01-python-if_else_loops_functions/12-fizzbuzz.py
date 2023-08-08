@@ -4,5 +4,5 @@ def fizzbuzz():
         if i % 3 == 0:
             print(f'Buzz', end=" ")
         if i % 3 == 0 and i % 5 == 0:
-            print(f'Fizzbuss', end=" ")
+            print(f'Fizzbuzz', end=" ")
         print(f'{i}', end=' ')
