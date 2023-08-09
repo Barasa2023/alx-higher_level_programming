@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
     for letter in str:
-        if letter = " ":
-            print(f'{letter}', end="")
         if ord(letter) in range(65, 91):
             diff = ord(letter)
         else:
